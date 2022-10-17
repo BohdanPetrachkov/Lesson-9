@@ -1,0 +1,95 @@
+body {
+    background: var(--background)
+}
+
+
+
+.table-tags {
+    border: 1px solid var(--table-border-color);
+    padding: 0 12px;
+    font-size: 18px;
+}
+
+.tags-name {
+    width: var(--table-cell-width);
+    text-align: center;
+    border-right: 1px solid var(--table-border-color);
+    background-color: var(--table-primary-color);
+    border-bottom: 1px solid var(--table-border-color);
+    padding: var(--table-cell-padding) 15px;
+}
+
+.tags-description {
+    width: calc(100% - var(--table-cell-width));
+    padding-top: 60px;
+    padding-bottom: var(--table-cell-padding);
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    background-color: var(--table-secondary-color);
+    border-bottom: 1px solid var(--table-border-color);
+}
+
+@media (max-width: 575px) {
+    .table-tags .row {
+        flex-direction: column;
+    }
+
+    .tags-name {
+        width:  100%;
+        padding: var(--table-cell-mobile) 24px;
+    }
+    .tags-description {
+        padding-top: var(--table-cell-tablet);
+        padding-bottom: var(--table-cell-tablet);   
+        width:  100%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .table-tags .row {
+        flex-direction: column;
+    }
+
+    .tags-name {
+        width:  100%;
+        padding: var(--table-cell-mobile) 15px;
+    }
+    .tags-description {
+        padding-top: var(--table-cell-tablet);
+        padding-bottom: var(--table-cell-tablet);   
+        width:  100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tags-name {
+        width: var(--table-cell-width-tablet);
+        padding: var(--table-cell-tablet) 15px;
+    }
+    .tags-description {
+        padding-top: var(--table-cell-tablet);
+        padding-bottom: var(--table-cell-tablet);   
+        width: calc(100% - var( --table-cell-width-tablet));
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .tags-name {
+        width: var(--table-cell-width);
+        padding: var(--table-cell-netbook) 15px;
+    }
+    .tags-description {
+        padding-top: var(--table-cell-padding);
+        padding-bottom: var(--table-cell-netbook);
+    }
+}
+
+@media (min-width: 1200px) {
+
+
+
+}

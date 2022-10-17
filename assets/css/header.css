@@ -1,0 +1,40 @@
+.about-page {
+    background-color: white;
+    color: black;
+    padding: 60px 100px;
+    margin: 0;
+}
+
+.logo {
+    margin-right: 44px;
+}
+
+header nav {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    padding-left: 0;
+    margin: 0; 
+}
+
+.header-nav__item {
+    list-style: none;
+}
+
+.header-nav__item-first {
+    color: #fff;
+    margin-right: 44px;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration:none;
+}
+
+.header-nav__item-link {
+    color: black;
+    margin-right: 44px;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+}

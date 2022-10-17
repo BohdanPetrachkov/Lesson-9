@@ -1,0 +1,116 @@
+
+.position, .absolute-parent {
+    width: 200px;
+    height: 200px;
+    background: #f3a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.position.static {
+    background: #0f0;
+} 
+
+.position.relative {
+    position: relative;
+    background-color: blue;
+    left: -115px;
+    top: 55px;
+
+}
+
+
+.absolute-parent {
+    background-color: #f00;
+    position: relative;
+}
+
+.absolute-parent .absolute {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: #ff0; 
+    top: 15px;
+    left: 15px;
+
+}
+
+.position.fixed {
+    background-color: darkorange;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+} 
+
+.parent-sticky {
+    overflow-y: auto;
+    height: 450px;
+    background: rgba(181, 1, 181, 0.345);
+    font-size: 32px;
+}
+
+.container-overflow-x .example-row {
+    width: 2000px;
+    background: violet;
+}
+
+.container-overflow-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.sticky {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+.table {
+    background: rgb(144, 144, 252);
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.table-caption {
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+} 
+
+td {
+    font-size: 24px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #000; 
+}
+
+.example-fonts {
+    background-color: #F9A8D4;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.trigon-up {
+   width: 0;
+   height: 0;
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-bottom: 200px solid #FFEE58;
+}
+
+.trigon-down {
+   margin-top: 50px;
+   width: 0;
+   height: 0;
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-top: 200px solid #2196F3;
+}   
