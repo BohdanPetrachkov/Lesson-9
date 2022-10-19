@@ -30,27 +30,23 @@
 }
 
 .fonts-1 {
-    margin-top: 25px;
     font-size: 42px;
     font-family:'Gemunu Libre' ;
     color: #00B489;
 }
 
 .fonts-2 {
-    margin-top: 25px;
     font-size: 36px;
     font-family: 'Domine', serif;
     color: #6A00FF;
 }
 
 .fonts-3 {
-    margin-top: 25px;
     font-size: 48px;
     font-family: 'Nabla';
 }
 
 .fonts-4 {
-    margin-top: 25px;
     font-size: 36px;
     font-family: 'Cinzel-semibold', serif;
     color: #EA4C89;
